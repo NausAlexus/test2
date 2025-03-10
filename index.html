@@ -51,7 +51,33 @@
     </header>
 
     <main class="main-content">
-
+        <section class="promo-section">
+            <div class="promo-content">
+                <h1 class="promo-title">BatBrigade fantasy football</h1>
+                <p class="promo-description">Innovate, challenge yourself, and secure major triumphs!</p>
+                <div class="promo-auth-container">
+                    <form action="thanks_form.php" id="promoAuthForm">
+                        <div class="input-group">
+                            <label for="phoneNumber" class="input-label">Your Phone Number:</label>
+                            <input type="tel" id="phoneNumber" name="phoneNumber" class="input-phone"
+                                placeholder="Your phone number" pattern="[0-9]{1,}" required />
+                        </div>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="privacy-policy" value="on" name="privacy" class="checkbox-privacy" required />
+                            <label for="privacy-policy" class="checkbox-label">
+                                I accept the
+                                <a href="privacy-policy/" target="_blank" class="privacy-link">Privacy Policy</a>
+                            </label>
+                        </div>
+                        <div class="button-container">
+                            <button type="submit" class="auth-button signup-button" id="registerButton" name="action" value="register">
+                                Download the application
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer class="site-footer">
