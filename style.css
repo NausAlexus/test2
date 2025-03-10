@@ -1057,7 +1057,95 @@ h2.cookies-contact-title {
 
 
 
+.additional-blog-elements {
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 40px;
+}
 
+.main-blog-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.section-blog-title {
+    text-align: left;
+    font-size: 24px;
+    margin: 20px 0;
+    color: #444;
+}
+
+.divider-blog {
+    border: 2px solid #000000;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.cards-blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-blog {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #bababa;
+    border-radius: 20px;
+    overflow: hidden;
+    width: calc(24% - 20px);
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.card-blog-image {
+    width: 100%;
+    height: auto;
+}
+
+.card-blog-description {
+    padding: 10px;
+    font-size: 16px;
+    color: #666;
+}
+
+.card-blog-price {
+    padding: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.card-blog-button {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s ease,
+                color 0.3s ease;
+}
+
+@media (max-width: 1024px) {
+    .card-blog {
+        width: calc(31% - 20px);
+    }
+}
+
+@media (max-width: 768px) {
+    .card-blog {
+        width: calc(48% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .card-blog {
+        width: 100%;
+    }
+}
 
 
 
@@ -1101,5 +1189,9 @@ h2.cookies-contact-title {
     }
     .contact-link-privacy:hover {
         text-decoration: underline;
+    }
+    .card-blog-button:hover {
+        background-color: rgb(192, 192, 192);
+        color: #000000;
     }
 }
