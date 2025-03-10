@@ -680,6 +680,250 @@ h2.terms-service-use, h2.terms-account-creation, h2.terms-user-content, h2.terms
 
 
 
+/* Styling for App Section */
+.app-section {
+    background: #111;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(255, 204, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+.app-section:hover {
+    transform: scale(1.02);
+}
+
+.app-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffcc00;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.app-title::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #ffcc00;
+    margin: 10px auto;
+    border-radius: 2px;
+}
+
+/* Features Styling */
+.app-feature {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #222;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(255, 204, 0, 0.5);
+    text-align: center;
+}
+
+.app-feature-title {
+    font-size: 24px;
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+
+.app-feature-description {
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.app-feature-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.app-feature-image:hover {
+    transform: scale(1.05);
+}
+
+/* Screenshot Section */
+.app-screenshot-section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.app-screenshot-title {
+    font-size: 26px;
+    color: #ffcc00;
+    margin-bottom: 20px;
+}
+
+.app-screenshot {
+    max-width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(255, 204, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+.app-screenshot:hover {
+    transform: scale(1.05);
+}
+
+/* Testimonials Section */
+.app-testimonials-section {
+    margin-top: 40px;
+    padding: 30px;
+    background: #111;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(255, 204, 0, 0.5);
+}
+
+.app-testimonials-title {
+    font-size: 26px;
+    text-align: center;
+    color: #ffcc00;
+    margin-bottom: 20px;
+}
+
+.app-testimonial {
+    font-size: 18px;
+    font-style: italic;
+    color: #fff;
+    border-left: 5px solid #ffcc00;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+/* Download Section */
+.app-download-section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.app-download-title {
+    font-size: 26px;
+    color: #ffcc00;
+    margin-bottom: 15px;
+}
+
+.app-download-description {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.app-download-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #ffcc00;
+    color: #000;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.app-download-button:hover {
+    background: #e6b800;
+}
+
+/* FAQ Section */
+.app-faq-section {
+    margin-top: 40px;
+    padding: 30px;
+    background: #111;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(255, 204, 0, 0.5);
+}
+
+.app-faq-title {
+    font-size: 26px;
+    text-align: center;
+    color: #ffcc00;
+    margin-bottom: 20px;
+}
+
+.app-faq-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #222;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255, 204, 0, 0.5);
+}
+
+.app-faq-question {
+    font-size: 20px;
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+
+.app-faq-answer {
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.6;
+}
+
+
+
+.app-testimonials-section {
+    margin-top: 40px;
+    padding: 30px;
+    background: #111;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(255, 204, 0, 0.5);
+    text-align: center;
+}
+
+.app-testimonials-title {
+    font-size: 26px;
+    text-align: center;
+    color: #ffcc00;
+    margin-bottom: 20px;
+}
+
+.app-testimonial {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(255, 204, 0, 0.5);
+    margin-bottom: 15px;
+    gap: 15px;
+}
+
+.user-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 2px solid #ffcc00;
+}
+
+.app-testimonial p {
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.6;
+}
+
+
+@media (max-width:768px) {
+    .app-section{
+        padding: 30px 5px;
+    }
+    .app-testimonials-section{
+        padding: 30px 5px;
+    }
+    .app-testimonial{
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    
+}
 
 
 
