@@ -1047,16 +1047,6 @@ h2.cookies-contact-title {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
 .additional-blog-elements {
     padding: 40px 20px;
     text-align: center;
@@ -1066,18 +1056,18 @@ h2.cookies-contact-title {
 .main-blog-title {
     font-size: 32px;
     margin-bottom: 20px;
-    color: #333;
+    color: #ffffff;
 }
 
 .section-blog-title {
     text-align: left;
     font-size: 24px;
     margin: 20px 0;
-    color: #444;
+    color: #ffffff;
 }
 
 .divider-blog {
-    border: 2px solid #000000;
+    border: 2px solid #ced413;
     margin: 20px auto;
     width: 90%;
 }
@@ -1106,15 +1096,20 @@ h2.cookies-contact-title {
 }
 
 .card-blog-description {
-    padding: 10px;
     font-size: 16px;
     color: #666;
+    margin: 0;
+    margin-top: 10px;
 }
 
 .card-blog-price {
-    padding: 10px;
     font-size: 18px;
     color: #333;
+    word-wrap: break-word; /* Позволяет переносить длинные слова */
+    overflow-wrap: break-word; /* Совместимое свойство для более новых браузеров */
+    white-space: normal;
+    margin: 0;
+    margin-top: 6px;
 }
 
 .card-blog-button {
@@ -1146,6 +1141,23 @@ h2.cookies-contact-title {
         width: 100%;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
