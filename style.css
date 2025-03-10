@@ -506,7 +506,70 @@ body::-webkit-scrollbar-track {
     }
 }
 
+.privacy-main {
+    padding: 2rem;
+    margin-top: 10px;
+}
 
+.privacy-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000000;
+}
+
+.privacy-title {
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+.privacy-definitions, .privacy-collection, .privacy-childrens, .privacy-third-party-links, .privacy-changes, .privacy-contact {
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: #afafaf;
+}
+
+.privacy-interpretation, .privacy-terms, .privacy-personal-data-title, .privacy-usage-data-title, .privacy-tracking-tech-title, .privacy-usage-personal-data, .privacy-sharing-data, .privacy-retention-data, .privacy-transfer-data, .privacy-deletion-data, .privacy-disclosure-data, .privacy-business-transactions, .privacy-law-enforcement, .privacy-other-requirements, .privacy-security {
+    color: #007BFF;
+}
+
+.privacy-intro, .privacy-definition-intro, .privacy-personal-data-text, .privacy-usage-text, .privacy-sharing-text, .privacy-retention-text, .privacy-transfer-text, .privacy-deletion-text, .privacy-business-text, .privacy-law-text, .privacy-other-text, .privacy-security-text {
+    margin: 1rem 0;
+}
+
+.privacy-definition-list,
+.privacy-personal-data-list,
+.privacy-usage-list,
+.privacy-sharing-list,
+.privacy-tracking-list,
+.privacy-contact-list {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+.definition-item, .contact-item {
+    margin: 0.5rem 0;
+}
+
+.contact-link-privacy {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .privacy-main {
+        padding: 1rem;
+    }
+
+    .privacy-title {
+        font-size: 2rem;
+    }
+
+    .privacy-definitions, .privacy-collection, .privacy-childrens, .privacy-third-party-links, .privacy-changes, .privacy-contact {
+        font-size: 1.5rem;
+    }
+}
 
 
 
@@ -551,5 +614,8 @@ body::-webkit-scrollbar-track {
     }
     .batbrigade-fantasy-btn:hover {
         background-color: #0056b3; /* Darker version of button */
+    }
+    .contact-link-privacy:hover {
+        text-decoration: underline;
     }
 }
