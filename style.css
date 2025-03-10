@@ -569,6 +569,68 @@ body::-webkit-scrollbar-track {
 
 
 
+
+
+
+.terms-main {
+    padding: 2rem;
+    margin-top: 10px;
+}
+
+.terms-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.terms-title {
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+.terms-introduction, .terms-service-agreement, .terms-interference-warning, .terms-account-responsibility, .terms-content-license, .terms-ip-notice, .terms-third-party-disclaimer, .terms-service-disclaimer, .terms-liability-limitation, .terms-indemnity-agreement, .terms-termination-policy, .terms-law-governance, .terms-changes-notice, .terms-player-policy {
+    margin: 1rem 0;
+}
+
+h2.terms-service-use, h2.terms-account-creation, h2.terms-user-content, h2.terms-intellectual-property, h2.terms-third-party-links, h2.terms-disclaimers, h2.terms-indemnification, h2.terms-termination, h2.terms-governing-law, h2.terms-changes, h2.terms-player-responsibilities {
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: #b4b4b4;
+}
+
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .terms-main {
+        padding: 1rem;
+    }
+
+    .terms-title {
+        font-size: 2rem;
+    }
+
+    .terms-container h2 {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 1025px) {
     .header-link:hover,
     .footer-brand:hover {
