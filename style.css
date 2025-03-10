@@ -313,6 +313,11 @@ body::-webkit-scrollbar-track {
     margin-top: 20px; /* Отступ сверху */
     font-size: 14px; /* Размер шрифта */
 }
+.footer-warn {
+    text-align: center; /* Центрируем текст */
+    padding: 8px;
+    font-size: 14px; /* Размер шрифта */
+}
 
 /* Адаптивность */
 @media (max-width: 768px) {
@@ -427,17 +432,79 @@ body::-webkit-scrollbar-track {
     }
 }
 
+.batbrigade-fantasy-section {
+    padding: 2rem;
+}
 
+.batbrigade-fantasy-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.batbrigade-fantasy-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
 
+.batbrigade-fantasy-content {
+    text-align: center;
+    margin-top: 1.5rem;
+}
 
+.batbrigade-fantasy-heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
 
+.batbrigade-fantasy-text {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
 
+.batbrigade-fantasy-features {
+    list-style: none;
+    padding: 0;
+}
 
+.batbrigade-fantasy-features li {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0;
+}
 
+.batbrigade-fantasy-features i {
+    margin-right: 0.5rem;
+    font-size: 1.2rem; /* Font Awesome icon size */
+}
 
+.batbrigade-fantasy-btn {
+    background-color: #007bff; /* Change this to your preferred button color */
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: backgroud-color 0.3s ease;
+}
 
+/* Responsive styles */
+@media (max-width: 768px) {
+    .batbrigade-fantasy-container {
+        flex-direction: column;
+        padding: 1rem;
+    }
 
+    .batbrigade-fantasy-heading {
+        font-size: 1.5rem;
+    }
+
+    .batbrigade-fantasy-text {
+        font-size: 0.9rem;
+    }
+}
 
 
 
@@ -481,5 +548,8 @@ body::-webkit-scrollbar-track {
     }
     .privacy-link:hover{
         color: white;
+    }
+    .batbrigade-fantasy-btn:hover {
+        background-color: #0056b3; /* Darker version of button */
     }
 }
