@@ -605,3 +605,75 @@ body::-webkit-scrollbar-track {
         text-decoration: underline;
     }
 }
+
+
+.how-it-works-section {
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.how-it-works-title {
+    font-size: 28px; /* Increased size for clarity */
+    margin-bottom: 15px;
+    text-align: center; /* Centered title */
+}
+
+.how-it-works-intro {
+    margin-bottom: 30px; /* More space before the steps */
+    text-align: center; /* Centered text */
+}
+
+.how-it-works-step {
+    background: rgb(64, 64, 64); /* White background for steps */
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for steps */
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.how-it-works-step-title {
+    color: #7acc00; /* Highlight color for step titles */
+    font-size: 22px; /* Step title font size */
+    margin-bottom: 10px; /* Space below titles */
+}
+
+.how-it-works-step-description {
+    margin-bottom: 10px; /* Space between description and image */
+}
+
+.how-it-works-step-image {
+    max-width: 100%; /* Responsive images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners for images */
+    margin-top: 10px; /* Space above images */
+}
+
+.how-it-works-conclusion {
+    text-align: center; /* Centered conclusion text */
+    color: #555;
+    font-size: 16px; /* Standard font size for conclusion */
+    margin-top: 20px; /* Space above the conclusion */
+}
+
+@media (max-width: 600px) {
+    .how-it-works-step-title {
+        font-size: 20px; /* Adjust title size for mobile */
+    }
+
+    .how-it-works-title {
+        font-size: 24px; /* Adjust main title size for mobile */
+    }
+}
+
+
+
+.how-it-works-step-image {
+    max-width: 100%; /* Responsive images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners for images */
+    margin-top: 10px; /* Space above images */
+    display: block; /* Ensures the image takes up the full line and is centered */
+    margin-left: auto; /* Center alignment */
+    margin-right: auto; /* Center alignment */
+}
