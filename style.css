@@ -628,13 +628,6 @@ body::-webkit-scrollbar-track {
 }
 
 
-
-
-
-
-
-
-
 .terms-main {
     padding: 2rem;
     margin-top: 10px;
@@ -925,59 +918,6 @@ h2.terms-service-use, h2.terms-account-creation, h2.terms-user-content, h2.terms
     
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 1025px) {
-    .header-link:hover,
-    .footer-brand:hover {
-        color: rgb(121, 121, 121);
-    }
-    .nav-link:hover {
-        color: rgb(121, 121, 121);
-    }
-    .footer-location:hover,
-    .footer-phone:hover,
-    .footer-email:hover {
-        color: rgb(121, 121, 121);
-    }
-    .footer-links a:hover {
-        color: rgb(121, 121, 121);
-    }
-    .login-button:hover {
-        background-color: #0056b3; /* Более тёмный цвет при наведении */
-    }
-    .auth-button:hover {
-        transform: translateY(-2px); /* Лёгкий подъем кнопки */
-    }
-    
-    .signup-button:hover {
-        background-color: #45a049; /* Более тёмный цвет при наведении */
-    }
-    .privacy-link:hover{
-        color: white;
-    }
-    .batbrigade-fantasy-btn:hover {
-        background-color: #0056b3; /* Darker version of button */
-    }
-    .contact-link-privacy:hover {
-        text-decoration: underline;
-    }
-}
-
-
 .how-it-works-section {
     padding: 20px;
     border-radius: 8px;
@@ -1037,8 +977,6 @@ h2.terms-service-use, h2.terms-account-creation, h2.terms-user-content, h2.terms
     }
 }
 
-
-
 .how-it-works-step-image {
     max-width: 100%; /* Responsive images */
     height: auto; /* Maintain aspect ratio */
@@ -1047,4 +985,121 @@ h2.terms-service-use, h2.terms-account-creation, h2.terms-user-content, h2.terms
     display: block; /* Ensures the image takes up the full line and is centered */
     margin-left: auto; /* Center alignment */
     margin-right: auto; /* Center alignment */
+}
+
+.cookies-main {
+    padding: 2rem;
+    margin-top: 40px;
+}
+
+.cookies-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #282c34; /* Например, если вам нужен темный фон */
+    color: #ffffff; /* Цвет текста */
+}
+
+.cookies-title {
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+.cookies-introduction,
+.cookies-definition-content,
+.cookies-managing-content,
+.cookies-changes-content,
+.cookies-contact-content {
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+
+h2.cookies-what-are,
+h2.cookies-types-title,
+h2.cookies-managing-title,
+h2.cookies-changes-title,
+h2.cookies-contact-title {
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: #b4b4b4;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .cookies-main {
+        padding: 1rem;
+    }
+
+    .cookies-title {
+        font-size: 2rem;
+    }
+
+    .cookies-container h2 {
+        font-size: 1.5rem;
+    }
+
+    .cookies-introduction,
+    .cookies-definition-content,
+    .cookies-managing-content,
+    .cookies-changes-content,
+    .cookies-contact-content {
+        font-size: 0.9rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1025px) {
+    .header-link:hover,
+    .footer-brand:hover {
+        color: rgb(121, 121, 121);
+    }
+    .nav-link:hover {
+        color: rgb(121, 121, 121);
+    }
+    .footer-location:hover,
+    .footer-phone:hover,
+    .footer-email:hover {
+        color: rgb(121, 121, 121);
+    }
+    .footer-links a:hover {
+        color: rgb(121, 121, 121);
+    }
+    .login-button:hover {
+        background-color: #0056b3; /* Более тёмный цвет при наведении */
+    }
+    .auth-button:hover {
+        transform: translateY(-2px); /* Лёгкий подъем кнопки */
+    }
+    
+    .signup-button:hover {
+        background-color: #45a049; /* Более тёмный цвет при наведении */
+    }
+    .privacy-link:hover{
+        color: white;
+    }
+    .batbrigade-fantasy-btn:hover {
+        background-color: #0056b3; /* Darker version of button */
+    }
+    .contact-link-privacy:hover {
+        text-decoration: underline;
+    }
 }
