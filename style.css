@@ -1722,3 +1722,45 @@ h2.cookies-contact-title {
         color: #585858;
       }
 }
+
+
+.main-content-unique {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-top: 90px !important;
+}
+
+
+.section-content-unique {
+    display: flex;
+    align-items: center;
+    margin: 15px 0; /* Reduced margin for sections */
+}
+
+.section-content-unique.reverse {
+    flex-direction: row-reverse;
+}
+
+.section-image-unique {
+    max-width: 300px;
+    margin: 0 10px; /* Reduced margin between image and text */
+    flex-shrink: 0;
+}
+
+.text-container-unique {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 10px; /* Adjusted margin to pull text closer to the image */
+}
+
+.section-title-unique {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #7acc00;
+}
+
+.section-paragraph-unique {
+    margin-bottom: 8px; /* Adjusted margin for paragraph spacing */
+}
