@@ -1764,3 +1764,154 @@ h2.cookies-contact-title {
 .section-paragraph-unique {
     margin-bottom: 8px; /* Adjusted margin for paragraph spacing */
 }
+
+
+/* Общий стиль для контейнера */
+.services-container {
+    background-color: #7f9a1d; /* Темный фон */
+    color: #000000; /* Светлый текст */
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0; /* Отступы сверху и снизу */
+}
+
+/* Заголовок секции */
+.services-title-wrapper {
+    margin-bottom: 15px;
+}
+
+.headline {
+    font-size: 24px; /* Размер заголовка */
+    font-weight: bold; /* Жирный шрифт */
+    text-align: center; /* Центрирование текста */
+}
+
+/* Текст секции */
+.body-text-m {
+    text-align: center; /* Центрирование текста */
+    font-size: 16px; /* Размер текста */
+    margin-bottom: 20px; /* Отступ снизу */
+}
+
+/* Стиль для таблицы лидеров */
+.leaderboard {
+    background-color: #c0c01e; /* Темный фон */
+    border-radius: 8px;
+    overflow: hidden; /* Закругление углов */
+}
+
+.leaderboard-item {
+    display: flex; /* Flexbox для горизонтального расположения */
+    justify-content: space-between; /* Пробел между элементами */
+    padding: 10px 15px; /* Отступы внутри элемента */
+    border-bottom: 1px solid #ecf0f1; /* Разделительная линия */
+    transition: background-color 0.3s; /* Плавный переход цвета фона */
+    gap: 15px;
+}
+
+
+/* Заголовок таблицы */
+.leaderboard-header {
+    background-color: #f2ff00; /* Цвет фона заголовка */
+    font-weight: bold; /* Жирный шрифт */
+}
+
+/* При наведении на элемент */
+.leaderboard-item:hover {
+    background-color: rgba(236, 240, 241, 0.1); /* Изменение фона при наведении */
+}
+
+/* Символы текста в элементах таблицы */
+.leaderboard-item span {
+    flex: 1; /* Одинаковая ширина для колонок */
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+
+@media (max-width:500px) {
+    .leaderboard-item span:first-child{
+        text-align: left;
+    }
+    .leaderboard-item span:last-child{
+        text-align: right;
+    }
+    .strategy-tips-title{
+        font-size: 1.5em !important;
+    }
+    
+}
+
+
+
+
+
+
+.strategy-tips-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.strategy-tips-title-wrapper {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.strategy-tips-title {
+    font-size: 2em;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #9db11b;
+}
+
+.body-text-m {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #dcdcdc;
+}
+
+.strategy-tips-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.strategy-tip-item {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    transition: transform 0.3s, background 0.3s;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.strategy-tip-item:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.strategy-tip-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #f0a500; /* Golden color for icons */
+}
+
+.strategy-tip-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+}
+
+.strategy-tip-description {
+    font-size: 1em;
+    color: #ffffff;
+}
+
+
+@media (max-width:769px) {
+    .section-content-unique{
+        flex-direction: column;
+    }
+    
+}
