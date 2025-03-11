@@ -8,7 +8,7 @@ function validateForm() {
     let privacyPolicy = document.getElementById("privacy-policy");
 
     if (phoneNumber.checkValidity() && privacyPolicy.checkValidity()) {
-        alert("Registration/Login was successful");
+        alert("The operation was successful");
     } else {
         phoneNumber.reportValidity();
         privacyPolicy.reportValidity();
