@@ -1863,6 +1863,9 @@ h2.cookies-contact-title {
     text-transform: uppercase;
     background-color: #9db11b;
 }
+.colorBlack{
+    color: black !important;
+}
 
 .body-text-m {
     font-size: 1.2em;
