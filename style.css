@@ -555,13 +555,6 @@ body::-webkit-scrollbar-track {
     }
 }
 
-
-
-
-
-
-
-
 .privacy-main {
     padding: 2rem;
     margin-top: 50px;
@@ -1143,19 +1136,6 @@ h2.cookies-contact-title {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .main4-sections {
     color: #000000;
     padding: 60px 20px;
@@ -1288,6 +1268,17 @@ h2.cookies-contact-title {
 
 
 
+
+
+
+
+
+
+
+
+
+
+  
 @media (min-width: 1025px) {
     .header-link:hover,
     .footer-brand:hover {
