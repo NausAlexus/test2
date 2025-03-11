@@ -564,7 +564,7 @@ body::-webkit-scrollbar-track {
 
 .privacy-main {
     padding: 2rem;
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
 .privacy-container {
@@ -630,7 +630,7 @@ body::-webkit-scrollbar-track {
 
 .terms-main {
     padding: 2rem;
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
 .terms-container {
@@ -1159,6 +1159,7 @@ h2.cookies-contact-title {
 .main4-sections {
     color: #000000;
     padding: 60px 20px;
+    margin-top: 40px;
   }
   
   /* Inner Container */
